@@ -1,0 +1,118 @@
+.Container{
+
+}
+
+.f1-Container{
+
+}
+
+.Logo{
+
+}
+
+.Fundo{
+
+}
+
+.Cabecalho{
+
+}
+
+.f1-cabecalho{
+
+}
+
+.f1-inicio{
+    margin-top: 20px;
+    word-spacing: 40px;
+    text-align: center; 
+}
+
+.f1-conta{
+    margin-left: 1220px;
+    margin-top: 0px;
+}
+
+.f1-minha-conta{
+
+}
+
+
+.Titulo{
+
+}
+
+.f1-logo-titulo{
+
+}
+
+.TuriSpace{
+
+}
+
+.Pacote{
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center; 
+    color: #17324A;
+}
+
+.Faixa {
+    background-color:rgba(0, 5, 32, 0.85);
+    width:1358px;
+    height:137px;
+    margin-top: 18px;
+}
+
+.Faixa span{
+    font-size: 55px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 67px;
+
+    position:absolute;
+    left:28%;
+    margin-top: 30px;
+} 
+
+.Conteudo{
+
+}
+
+.f1-Conteudo{
+
+}
+
+.Faixa-2{
+    background-color:rgba(0, 5, 9, 0.85);
+    width: 640px;
+    height:400px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.Faixa-2 span{
+    position: absolute;
+    width: 221px;
+    height: 57px;
+    left: 436px;
+    top: 450px;
+}
+
+.Faixa-3{
+    background-color:rgba(0, 5, 32, 0.85);
+    width: 640px;
+    height:400px;
+    border-radius: 20px;
+    margin-top: -400px;
+    float:right;
+}
+
+.Faixa-3 span{
+    position: absolute;
+    width: 221px;
+    height: 57px;
+    left: 1136px;
+    top: 450px;
+}
+
