@@ -1,0 +1,50 @@
+.Container{
+
+}
+
+.f1-container{
+    position: absolute;
+    width: 1394px;
+    height: 818px;
+    left: 16px;
+    top: 26.5px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 6px solid rgba(15, 109, 210, 0.8);
+    box-sizing: border-box;
+    border-radius: 26px;
+}
+
+.fundo{
+
+}
+
+.titulo{
+    text-align: center;
+}
+
+.conteudo{
+
+}
+
+.conteudo-esquerda{
+    background-color:  rgba(4, 30, 57, 0.85);
+    height: auto;
+    width: 13em;
+}
+
+.CE-faixa1{
+
+}
+
+
+.CE-faixa2{
+
+}
+
+.CE-faixa3{
+
+}
+
+.CE-imagem{
+    background: transparent;
+}
