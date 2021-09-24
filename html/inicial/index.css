@@ -10,7 +10,7 @@
 
 }
 
-.Fundo{
+ BODY{
 
 }
 
@@ -63,7 +63,7 @@
 
 .Faixa {
     background-color:rgba(0, 5, 32, 0.85);
-    width:1357px;
+    width:1350px;
     height:137px;
     margin-top: 18px;
     margin-left: -10px;
@@ -91,15 +91,16 @@
 .Faixa-2{
     background-color:rgba(0, 5, 9, 0.85);
     width: 540px;
-    height:400px;
+    height:370px;
     border-radius: 20px;
     margin-top: 40px;
 }
 
 .Faixa-2 img{
-    margin-left: -343px;
-    margin-top: -139px;
+    margin-left: -327px;
+    margin-top: -120px;
 }
+
 
 .Faixa-2 span{
     position: absolute;
@@ -112,9 +113,9 @@
 .Faixa-3{
     background-color:rgba(0, 5, 32, 0.85);
     width: 540px;
-    height:400px;
+    height:370px;
     border-radius: 20px;
-    margin-top: -400px;
+    margin-top: -408px;
     float:right;
 }
 
@@ -126,3 +127,68 @@
     top: 750px;
 }
 
+.Faixa-3 img{
+    margin-left: -320px;
+    margin-top: -120px;
+}
+
+.barra img{
+    margin-top: -100px;
+    margin-left: -200px;
+    margin-right: -900px;
+}
+
+
+.Faixa-4{
+    background-color:rgba(0, 5, 9, 0.85);
+    width: 540px;
+    height:370px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.Faixa-4 img{
+    margin-left: -327px;
+    margin-top: -0px;
+}
+
+
+.Faixa-4 span{
+    position: absolute;
+    width: 221px;
+    height: 57px;
+    left: 350px;
+    top: 1034px;
+}
+
+.Faixa-5{
+    background-color:rgba(0, 5, 32, 0.85);
+    width: 540px;
+    height:370px;
+    border-radius: 20px;
+    margin-top: -410px;
+    float:right;
+}
+
+.Faixa-5 img{
+    margin-left: -320px;
+    margin-top: -0px;
+}
+
+
+.Faixa-5 span{
+    position: absolute;
+    width: 221px;
+    height: 57px;
+    left: 1136px;
+    top: 1034px;
+}
+
+.Faixa-6{
+    background-color:rgba(0, 5, 32, 0.85);
+    width: 540px;
+    height:370px;
+    border-radius: 20px;
+    margin-top: -372px;
+    float:right;
+}
