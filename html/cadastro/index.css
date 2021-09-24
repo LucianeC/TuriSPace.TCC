@@ -58,22 +58,34 @@
     background: transparent;
 }
 
-.CE-onibus{
-    display: flex;
-    flex-direction: row;
-}
 
 .CE-aviao{
     display: flex;
     flex-direction: row;
 }
 
+.CE-onibus{
+    display: flex;
+    flex-direction: row;
+    width: 183.5px;
+    height: 130px;
+}
+
 .CE-carro{
     display: flex;
     flex-direction: row;
+    width: 162.14px;
+    height: 114px;
 }
 
 .CE-pessoa{
     display: flex;
     flex-direction: row;
+    width: 130.75px;
+    height: 142.75px;
+}
+
+.CE-aviao img{
+    width: 150.68px;
+    height: 60.5px;
 }
