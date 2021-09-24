@@ -1,13 +1,16 @@
 .Container{
-
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../../react/tcc/public/assets/images/buildings-1842205_1920\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .f1-container{
     position: absolute;
-    width: 1394px;
-    height: 818px;
-    left: 16px;
-    top: 26.5px;
+    width: 95vw;
+    height: 95vh;
+    margin: 20px;
     background: rgba(255, 255, 255, 0.1);
     border: 6px solid rgba(15, 109, 210, 0.8);
     box-sizing: border-box;
@@ -30,21 +33,47 @@
     background-color:  rgba(4, 30, 57, 0.85);
     height: auto;
     width: 13em;
+    padding: 3em;
+    width: 562.57px;
+    height: 352.5px;
 }
 
-.CE-faixa1{
-
+.CE-faixa1 {
+    font: 500 32px Montserrat;
+    color: white;
 }
 
 
 .CE-faixa2{
-
+    font: 500 24px Montserrat;
+    color: white;
 }
 
 .CE-faixa3{
-
+    font: 500 40px  Montserrat;
+    color: white;
 }
 
 .CE-imagem{
     background: transparent;
+}
+
+.CE-onibus{
+    display: flex;
+    flex-direction: row;
+}
+
+.CE-aviao{
+    display: flex;
+    flex-direction: row;
+}
+
+.CE-carro{
+    display: flex;
+    flex-direction: row;
+}
+
+.CE-pessoa{
+    display: flex;
+    flex-direction: row;
 }
