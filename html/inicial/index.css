@@ -1,16 +1,35 @@
-.Container{
-
+body{margin: 0px}
+*{
+    box-sizing: border-box;
+    cursor: default;
 }
 
-.f1-Container{
+.Container{
+    height: 300vh;
+    width: 98,5vw;
+    background-image: url(../../react/tcc/public/assets/images/fundo2\.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.Menu{
+    margin-top: -130px;
+    text-align: center; 
+    color: #FFFFFF;
+}
+
+.Menu br-2{
+    margin-left: 760px;
+    margin-top: -30px;
+    color: #FFFFFF;
+}
+
+.Fundo{
 
 }
 
 .Logo{
-
-}
-
- BODY{
 
 }
 
@@ -23,22 +42,11 @@
 }
 
 .f1-inicio{
-    margin-top: -130px;
-    word-spacing: 40px;
-    text-align: center; 
-    color: #FFFFFF;
-}
-
-.f1-conta{
-    margin-left: 1120px;
-    margin-top: -30px;
-    color: #FFFFFF;
 }
 
 .f1-minha-conta{
 
 }
-
 
 .Titulo{
 
@@ -61,9 +69,9 @@
     color: #17324A;
 }
 
-.Faixa {
+.Faixa{
     background-color:rgba(0, 5, 32, 0.85);
-    width:1350px;
+    width:1358px;
     height:137px;
     margin-top: 18px;
     margin-left: -10px;
@@ -80,115 +88,86 @@
     margin-top: 30px;
 } 
 
-.Conteudo{
-
-}
-
 .f1-Conteudo{
-
-}
-
-.Faixa-2{
     background-color:rgba(0, 5, 9, 0.85);
-    width: 540px;
-    height:370px;
     border-radius: 20px;
+    width:400px;
+    height:200px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.Hopi img{
+    margin-top: 20px;
+    margin-left: 10px;
+    max-width:200px;
+    max-height:160px;
+    width: auto;
+    height: auto;
+}
+
+.Barrinha{
+    margin-top: -145px;
+    margin-left: 180px;
+}
+
+.Nome{
+    color: #FFFFFF;
+    margin-top: -40px;
+    margin-left: 200px;
+}
+
+
+.Valor{
+    color: #FFFFFF;
     margin-top: 40px;
+    margin-left: 200px;
 }
 
-.Faixa-2 img{
-    margin-left: -327px;
-    margin-top: -120px;
+.Conteudo-2{
+    
 }
 
-
-.Faixa-2 span{
-    position: absolute;
-    width: 221px;
-    height: 57px;
-    left: 350px;
-    top: 750px;
-}
-
-.Faixa-3{
+.f2-Conteudo{
     background-color:rgba(0, 5, 32, 0.85);
-    width: 540px;
-    height:370px;
     border-radius: 20px;
-    margin-top: -408px;
-    float:right;
+    width:400px;
+    height:200px;
+    margin-top: -699px;
+    margin-left: 800px;
 }
 
-.Faixa-3 span{
-    position: absolute;
-    width: 221px;
-    height: 57px;
-    left: 1136px;
-    top: 750px;
+.Ricao img{
+    margin-top: 20px;
+    margin-left: 10px;
+    max-width:200px;
+    max-height:160px;
+    width: auto;
+    height: auto;
 }
 
-.Faixa-3 img{
-    margin-left: -320px;
-    margin-top: -120px;
+.Barrinha-2{
+    margin-top: -145px;
+    margin-left: 180px;
 }
 
-.barra img{
-    margin-top: -100px;
-    margin-left: -200px;
-    margin-right: -900px;
+.Nome-2{
+    color: #FFFFFF;
+    margin-top: -40px;
+    margin-left: 200px;
 }
 
-
-.Faixa-4{
-    background-color:rgba(0, 5, 9, 0.85);
-    width: 540px;
-    height:370px;
-    border-radius: 20px;
+.Valor-2{
+    color: #FFFFFF;
     margin-top: 40px;
+    margin-left: 200px;
 }
 
-.Faixa-4 img{
-    margin-left: -327px;
-    margin-top: -0px;
-}
-
-
-.Faixa-4 span{
-    position: absolute;
-    width: 221px;
-    height: 57px;
-    left: 350px;
-    top: 1034px;
-}
-
-.Faixa-5{
+.f2-Conteudo-3{
     background-color:rgba(0, 5, 32, 0.85);
-    width: 540px;
-    height:370px;
     border-radius: 20px;
-    margin-top: -410px;
-    float:right;
-}
-
-.Faixa-5 img{
-    margin-left: -320px;
-    margin-top: -0px;
-}
-
-
-.Faixa-5 span{
-    position: absolute;
-    width: 221px;
-    height: 57px;
-    left: 1136px;
-    top: 1034px;
-}
-
-.Faixa-6{
-    background-color:rgba(0, 5, 32, 0.85);
-    width: 540px;
-    height:370px;
-    border-radius: 20px;
-    margin-top: -372px;
-    float:right;
+    width:400px;
+    height:200px;
+    margin-top: 50px;
+    margin-left: 800px;
 }
