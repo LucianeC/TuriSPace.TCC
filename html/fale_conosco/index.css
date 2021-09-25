@@ -1,0 +1,16 @@
+.Container-fale-conosco{
+    height: 140vh;
+    width: 98vw;
+    background-image: url(../../react/tcc/public/assets/images/fundo_fale_conosco.png.png);
+}
+
+.f1-Container-fale-conosco{
+    position: absolute;
+    width: 95vw;
+    height: 95vh;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 6px solid rgba(15, 109, 210, 0.8);
+    box-sizing: border-box;
+    border-radius: 26px;
+}
