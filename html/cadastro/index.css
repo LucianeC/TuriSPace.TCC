@@ -15,10 +15,7 @@
     border: 6px solid rgba(15, 109, 210, 0.8);
     box-sizing: border-box;
     border-radius: 26px;
-}
-
-.fundo{
-
+    margin-left: 35px;
 }
 
 .titulo{
@@ -26,32 +23,37 @@
 }
 
 .conteudo{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .conteudo-esquerda{
     background-color:  rgba(4, 30, 57, 0.85);
     height: auto;
     width: 13em;
-    padding: 3em;
+    padding: 2em 3em 2em 3em;
     width: 562.57px;
-    height: 352.5px;
+    height: 290px;
 }
 
 .CE-faixa1 {
-    font: 500 32px Montserrat;
+    text-align: center;
+    font: 500 28px Montserrat;
     color: white;
+    margin-bottom: 20px;
 }
 
 
 .CE-faixa2{
-    font: 500 24px Montserrat;
+    font: 500 20px Montserrat;
     color: white;
 }
 
 .CE-faixa3{
-    font: 500 40px  Montserrat;
+    font: 24px Rosario;
     color: white;
+    margin-top: 15px;
 }
 
 .CE-imagem{
@@ -67,25 +69,220 @@
 .CE-onibus{
     display: flex;
     flex-direction: row;
-    width: 183.5px;
-    height: 130px;
 }
 
 .CE-carro{
     display: flex;
     flex-direction: row;
-    width: 162.14px;
-    height: 114px;
 }
 
 .CE-pessoa{
     display: flex;
     flex-direction: row;
-    width: 130.75px;
-    height: 142.75px;
 }
 
 .CE-aviao img{
-    width: 150.68px;
-    height: 60.5px;
+    width: auto;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.CE-onibus img{
+    width: auto;
+    height: 50px;
+    margin-left: 15px;
+}
+
+.CE-carro img{
+    width: auto;
+    height: 50px;
+    margin-left: 15px;
+}
+
+.CE-pessoa img{
+    width: auto;
+    height: 45px;
+    margin-left: 15px;
+}
+
+.ifen {
+    font: 38px Rosario;
+    margin: 0px;
+}
+
+
+.conteudo-direita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 290px;
+    background-color: rgba(4, 30, 57, 0.85);
+    padding: 2em 3em 2em 3em;
+    margin: 0px 0px 0px 70px;
+}
+
+.logo {
+    width: auto;
+    height: 185px;
+}
+
+.cadastrar{
+    font: 34px Rosario;
+    color: white;
+}
+
+.input-email{
+    border-style: none;
+    border-radius: 4px;
+    padding: 1em 1.7em 1em 1.7em;
+    margin: 25px 0px 15px 0px;
+    font: 16px Rosario;
+    color: #777777;
+}
+
+.input-senha{
+    border-style: none;
+    border-radius: 4px;
+    padding: 1em 1.7em 1em 1.7em;
+    margin: 0px 0px 20px 0px;
+    font: 16px Rosario;
+    color: #777777;
+}
+
+.botao-cadastrar{
+    font: 22px Rosario;
+    color: white;
+    background: transparent;
+    border-radius: 7px;
+    border-color: white;
+    padding: 0.3em 0.7em 0.3em 0.7em;
+    cursor: pointer;
+}
+
+.login{
+    font: 15px Rosario;
+    color: white;
+    background: transparent;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.rodape{
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+    width: 100vw;
+    justify-content: center;
+}
+
+.coluna1{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px ;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    align-items: center;
+    margin: 15px 30px 0px 00px;
+    width: 160px;
+    text-align: center;
+}
+
+.coluna2{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px ;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    align-items: center;
+    margin: 25px 30px 0px 30px;
+    width: 160px;
+}
+
+.coluna3{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    font-size: 16px ;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    align-items: center;
+    margin: 25px 30px 0px 30px;
+    width: 200px;
+}
+
+.coluna4{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px ;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    align-items: center;
+    margin: 25px 30px 0px 30px;
+    width: 210px;
+}
+
+.coluna5{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px ;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    align-items: center;
+    margin: 25px 30px 0px 30px;
+    width: 200px;
+}
+
+.c4-cima{
+    cursor: pointer;
+}
+
+.c4-baixo{
+    cursor: pointer;
+}
+
+.c4-baixo2{
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.c1-cima{
+    margin-bottom: 10px;
+}
+
+.c2-cima{
+    margin-bottom: 10px;
+}
+
+.c3-cima{
+    margin-bottom: 10px;
+}
+
+.c4-cima{
+    margin-bottom: 10px;
+}
+
+.c5-cima{
+    margin-bottom: 10px;
+}
+
+.c1-baixo{
+    display: flex;
+    flex-direction: row;
+}
+
+.insta-logo{
+    margin: 0px 20px 0px 0px;
+    cursor: pointer;
+}
+
+.face-logo{
+    cursor: pointer;
+}
+
+.twitter-logo{
+    margin: 0px 0px 0px 20px;
+    cursor: pointer;
 }

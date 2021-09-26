@@ -1,5 +1,7 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Rosario:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 </style>
 
 <!DOCTYPE html>
@@ -12,23 +14,58 @@
     <title>Cadastro</title>
 </head>
 <body>
-  <div class="Container">
+    <div class="Container">
       <div class="f1-container">
-          <div class="titulo"><img src="../../react/tcc/public/assets/images/Nome-Turispace.png" alt=""></div>
+          <div class="titulo"><img class="logo" src="../../react/tcc/public/assets/images/Nome-Turispace.png" alt=""></div>
           <div class="conteudo">
             <div class="conteudo-esquerda">
                 <div class="CE-faixa1">Conheça os melhores lugares de SP</div>
                 <div class="CE-faixa2">Oferecemos viagens com conforto, segurança e guia de turismo acompanhado por um preço acessível</div>
                 <div class="CE-faixa3">
-                    <div class="CE-aviao"><h1>---</h1><img src="../../react/tcc/public/assets/images/aviao.png" alt=""></div>
-                    <div class="CE-onibus"><h1>-------</h1><img src="../../react/tcc/public/assets/images/onibus.png" alt=""></div>
-                    <div class="CE-carro"><h1>--------------<h1><img src="../../react/tcc/public/assets/images/carrinho.png" alt=""></div>
-                    <div class="CE-pessoa"><h1>---------------------</h1><img src="../../react/tcc/public/assets/images/pessoa.png" alt=""></div>
+                    <div class="CE-aviao"><div class="ifen">---</div><img src="../../react/tcc/public/assets/images/aviao2.png" alt=""></div>
+                    <div class="CE-onibus"><div class="ifen">-------</div><img src="../../react/tcc/public/assets/images/onibus2.png" alt=""></div>
+                    <div class="CE-carro"><div class="ifen">--------------</div><img src="../../react/tcc/public/assets/images/carrinho2.png" alt=""></div>
+                    <div class="CE-pessoa"><div class="ifen">---------------------</div><img src="../../react/tcc/public/assets/images/pessoa2.png" alt=""></div>
                 </div>
               </div>
-              <div class="conteudo-direita"></div>
+              <div class="conteudo-direita">
+                  <div class="cadastrar">Cadastre-se</div>
+                  <input class="input-email" type="text" value="Insira seu e-mail">
+                  <input class="input-senha" type="text" value="Insira sua senha">
+                  <button class="botao-cadastrar">Cadastrar</button>
+                  <button class="login">Já é cadastrado? Login</button>
+              </div>
           </div>
+
+        </div>
       </div>
-      </div>
+    <div class="rodape">
+        <div class="coluna1">
+            <div class="c1-cima">Siga nossas redes sociais </div>
+            <div class="c1-baixo">
+                <img src="../../react/tcc/public/assets/images/instagram.png" alt="" class="insta-logo">
+                <img src="../../react/tcc/public/assets/images/facebook.png" alt="" class="face-logo">
+                <img src="../../react/tcc/public/assets/images/twitter.png" alt="" class="twitter-logo">
+            </div>
+        </div>
+        <div class="coluna2">
+            <div class="c2-cima">Entre em contato</div>
+            <div class="c2-baixo">(11) 95247-9539</div>
+            <div class="c2-baixo2">turiSPace@gmail.com</div>
+        </div>
+        <div class="coluna3">
+            <div class="c3-cima">Endereço</div>
+            <div class="c3-baixo">Av. Coronel Octaviano de Freitas Costa, 463 - SP</div>
+        </div>
+        <div class="coluna4">
+            <div class="c4-cima">Suporte</div>
+            <div class="c4-baixo">Politica de Privaciade</div>
+            <div class="c4-baixo2">Sobre nós</div>
+        </div>
+        <div class="coluna5">
+            <div class="c5-cima">Formas de pagamento</div>
+            <img src="../../react/tcc/public/assets/images/cartoes 1.png" alt="" class="c5-baixo">
+        </div>
+    </div>
 </body>
 </html>
