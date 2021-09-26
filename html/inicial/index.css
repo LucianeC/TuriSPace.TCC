@@ -2,15 +2,44 @@ body{margin: 0px}
 *{
     box-sizing: border-box;
     cursor: default;
+
+}
+
+.Container-2{
+    background-image: url(../../react/tcc/public/assets/images/saopaulo\.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.f4-Container{
+    background-color:rgba(0, 5, 32, 0.85);
+    width:100;
+    height:137px;
+}
+
+.Faixa-4{
+    text-align: center;
+}
+
+.Faixa-4 span{
+    color: #FFFFFF;
+    font-size: 55px;
 }
 
 .Container{
-    height: 300vh;
-    width: 98,5vw;
+    height: 100;
+    width: auto;
     background-image: url(../../react/tcc/public/assets/images/fundo2\.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
+
+    padding-bottom: 2em;
+}
+
+
+.Cabecalho{
+
 }
 
 .Menu{
@@ -170,4 +199,9 @@ body{margin: 0px}
     height:200px;
     margin-top: 50px;
     margin-left: 800px;
+}
+
+.Botão{
+    margin-left: 1194px;
+    margin-top: 10px;
 }
