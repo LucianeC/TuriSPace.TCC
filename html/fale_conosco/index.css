@@ -1,16 +1,149 @@
-.Container-fale-conosco{
-    height: 140vh;
-    width: 98vw;
-    background-image: url(../../react/tcc/public/assets/images/fundo_fale_conosco.png.png);
+body{margin: 0px}
+*{
+    box-sizing: border-box;
+    cursor: default;
 }
 
-.f1-Container-fale-conosco{
-    position: absolute;
-    width: 95vw;
-    height: 95vh;
-    margin: 20px;
-    background: rgba(255, 255, 255, 0.1);
-    border: 6px solid rgba(15, 109, 210, 0.8);
-    box-sizing: border-box;
-    border-radius: 26px;
+
+.Container-fale-conosco{
+    height: 140vh;
+    width: 99,2vw;
+    background-image: url(../../react/tcc/public/assets/images/fundo_fale_conosco.png.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.cabecalho-fale_conosco{
+    display: flex;
+    color: aliceblue;
+}
+
+.Logo {
+    justify-content: right;
+    padding: 8px 10px 30px 40px;
+   
+
+}
+
+.opcoes {
+    display: flex;
+    padding: 48px 10px 30px 20px;
+    word-spacing: 0px;
+}
+
+.inicio{
+    padding: 8px 20px 30px 70px
+}
+
+.lugar{
+    padding: 8px 20px 30px 70px
+}
+
+.fale-conosco{
+    padding: 8px 20px 30px 70px
+}
+
+.meus-pacotes{
+    padding: 8px 20px 30px 70px
+}
+.conta {
+    display: flex;
+    padding: 48px 0px 0px 180px;
+    justify-content: center;
+}
+
+.perfil{
+    padding: 0px 0px 0px 0px ;
+   
+}
+
+.conteudo-fale_conosco{
+    display: column;
+    justify-items: center;
+  
+ 
+   
+}
+
+.titulo{
+  
+       
+color:antiquewhite;
+text-align: center;
+font-size: 50px;
+width: 25vw;
+height: 10vh;
+margin: 10px;
+background: hsla(252, 87%, 9%, 0.562);
+border: 2px solid rgba(15, 109, 210, 0.8);
+border-radius: 15px;
+}
+
+.conteudo-FC{
+    display: flex;
+    align-items: center;
+}
+
+.conteudo-1{
+width: 37vw;
+height: 60vh;
+text-align: center;
+margin: 100px;
+background: hsla(252, 87%, 9%, 0.562);
+border: 3px solid rgba(15, 109, 210, 0.8);
+border-radius: 15px;
+}
+
+.mapa{
+ padding: 25px 10px 0px 20px;
+ text-align: center;
+}
+
+.cell{
+    color:antiquewhite; 
+    text-align: center;
+    padding: 13px 0px 0px 0px;
+}
+
+.email{
+    color:antiquewhite; 
+    text-align: center;
+    padding: 15px 0px 10px 0px;
+}
+
+.conteudo-2{
+    width: 45vw;
+    height: 60vh;
+}
+
+.mensagem{
+    align-items: center;  
+    
+
+label {
+    color:antiquewhite;
+    font-size: 30px;  
+}
+
+input {
+    border-radius: 7px;
+    padding: 9px 80px 8px 170px;
+    margin: 1px 0px 8px 0px ;
+}
+
+
+textarea {
+    border-radius: 7px;
+    padding: 150px 80px 8px 180px;
+    margin: 1px 0px 8px 0px ;
+}
+
+button {
+font-size: 23px;  
+color:antiquewhite;
+background: hsla(252, 87%, 9%, 0.562);
+border: 3px solid rgba(255, 255, 255, 0.959);
+border-radius:7px;
+padding: 2px 20px;
+
 }
