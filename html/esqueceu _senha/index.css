@@ -1,0 +1,78 @@
+.container{
+    background-color: #041E39;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* .f1-container{
+    background-color: rgba(66, 100, 187, 0.36);
+    border: 5px solid #1186FF;
+    border-radius: 32px; 
+    width: 85vw;
+    height: 85vh;
+    margin: 20px;
+    margin-left: 50px;
+} */
+
+.f1-container{
+    position: absolute;
+    width: 90vw;
+    height: 90vh;
+    margin: 40px;
+    border: 3px solid #1186FF;
+    box-sizing: border-box;
+    border-radius: 26px;
+    margin-left: 70px;
+    background: rgba(66, 100, 187, 0.36);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 320px;
+    margin-top: 70px;
+}
+
+.logo-usuario{
+    width: 100px;
+    height: 100px;
+}
+
+.esqueceu-senha{
+    font: 42px Roboto;
+    color: white;
+    margin-left: 35px;
+}
+
+.linha-email{
+    width: 600px;
+    height: 1px;
+    background-color: white;
+    margin-left: 300px;
+}
+
+.input-email{
+    border: none;
+    background-color: transparent;
+    font: 22px Roboto;
+    color: white;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.botao-esqueceu-senha{
+    background-color: #777777;
+    border: none;
+    border-radius: 18px;
+    font: 22px Roboto;
+    color: white;
+    padding: 10px 40px 10px 40px;
+    margin-left: 550px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.conteudo{
+    justify-content: center;
+}
