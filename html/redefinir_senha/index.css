@@ -1,0 +1,51 @@
+.container{
+    background-color: #041E39;
+    width: 100vw;
+    height: 100vh;
+}
+
+.f1-container{
+    position: absolute;
+    width: 90vw;
+    height: 90vh;
+    margin: 40px;
+    border: 3px solid #1186FF;
+    box-sizing: border-box;
+    border-radius: 26px;
+    margin-left: 70px;
+    background: rgba(17, 14, 61, 0.5);;
+}
+
+.redefinir-senha{
+    font: 28px Roboto;
+    color: white;
+    margin-top: 130px;
+    margin-left: 460px;
+}
+
+.senha{
+    font: 22px Roboto;
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.linha-senha{
+    height: 1px;
+    width: 400px;
+    background-color: white;
+    margin-left: 400px;
+}
+
+.botao-redefinir{
+    font: 22px Roboto;
+    color: white;
+    background-color: #777777;
+    border: none;
+    border-radius: 12px;
+    padding: 0.4em 1em;
+    margin-left: 525px;
+    margin-top: 70px;
+}
