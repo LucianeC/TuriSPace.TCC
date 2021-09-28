@@ -1,6 +1,9 @@
+body{margin: 0px}
+*
+
 .Container{
-    height: 100vh;
-    width: 100vw;
+    height: 800;
+    width: auto;
     background-image: url(../../react/tcc/public/assets/images/buildings-1842205_1920\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,7 +11,7 @@
 
 .f1-container{
     position: absolute;
-    width: 95vw;
+    width: 93vw;
     height: 95vh;
     margin: 20px;
     background: rgba(255, 255, 255, 0.1);
@@ -174,7 +177,7 @@
     display: flex;
     flex-direction: row;
     height: 130px;
-    width: 100vw;
+    width: 98.75vw;
     justify-content: center;
 }
 
