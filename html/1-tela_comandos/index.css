@@ -1,0 +1,78 @@
+body{margin: 0px}
+*{
+    box-sizing: border-box;
+    cursor: default;
+
+}
+
+
+.container-1{
+    background-image: url(../../react/tcc/public/assets/images/buildings-1842205_1920\ 1.png);
+    display: column;
+    position: absolute;
+    width: 215vh;
+    height: 140vh;
+   
+}
+
+.titulo-comando{
+    text-align: center; 
+    width: 98,5vw;
+    height: 32vh;
+    background:  rgba(0, 17, 49, 0.856);
+    border: 6px solid rgba(15, 109, 210, 0.8);
+    box-sizing: border-box;
+    border-radius: 6px;
+
+}
+
+.comandos{
+    padding: 90px 60px ;
+    text-align:left; 
+    display: flex;
+    
+
+}
+
+button{
+    color: darkblue;
+   margin: 4px;
+    height: 6vh;
+    width: 10vw;
+}
+
+.usuario{
+    display: flex;
+    
+}
+
+.titulo-usuario{
+
+    font-size: 30px;
+    color: cornsilk;
+}
+
+.parte1-U{
+    padding: 40px;
+    font-size: 20px;
+    font-weight: bolder #ffffff ;
+    color: #042127;
+}
+
+.parte2-U{
+    padding: 40px; 
+    font-size: 20px;
+    font-weight: bolder #ffffff ;
+    color: #042127;
+}
+
+.titulo-adm{
+    font-size: 30px;
+    color: cornsilk;
+}
+.parte1-A{
+    padding: 0px 200px; 
+    font-size: 20px;
+    font-weight: bolder #ffffff ;
+    color: #042127;
+}
