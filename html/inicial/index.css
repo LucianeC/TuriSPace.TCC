@@ -179,7 +179,8 @@ body{margin: 0px}
 }
 
 button{
-    border-radius: 70px;
+    border-radius: 70px; 
+    background-color: rgb(156, 8, 156);
 }
 
 .img1 img{

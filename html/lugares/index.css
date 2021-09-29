@@ -1,15 +1,285 @@
 body{
-    margin: 0px;
+    margin: 0px; 
+}
+*{
+    box-sizing: border-box;
+    cursor: default;
 }
 
 
-
-.Container{
-    background-image: url("../../react/tcc/public/assets/images/saopaulo.png");
-    background-size: cover;
-    height: 100vh;
+.Contaneir{
+    height: 100;
+    width: auto;
+    background-image: url(../../react/tcc/public/assets/images/saopaulo.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
 
+.Cabecalho{
+    position: fixed;
+}
+
+.f1-Cabecalho{
+    background-color: #192F45;
+    width: 1366px;
+    height: 110px;
+}
+
+.Logo{
+    width: 7em;
+}
+
+.Menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 199px;
+    margin-top: -140px;
+    width: 1000px;
+}
+
+.Menu-f1{
+    color: #FFFFFF;
+}
+
+a{
+    color: #FFFFFF;  
+    text-decoration: none;
+}
+
+.Menu-f1 :hover{
+    text-decoration: underline;
+}
+
+.conta{
+    margin-top: -50px;
+    margin-left: 1160px;
+}
+
+.conta img{
+    height: 60px;
 }
 
 
+.barra-pesquisa input{
+    background-color:  rgba(0, 0, 0, 0.66);
+    margin-left: 20em;
+    margin-top: 7em;
+    width: 30em;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.nome{
+    background-color:  rgba(0, 0, 0, 0.66);
+    border-radius: 10px;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    width: 8em;
+    color: #FFFFFF;
+    margin-left: 13.5em;
+    margin-top: 30px;
+}
+
+.texto{
+    background: rgba(4, 30, 57, 0.8);
+    text-align: center;
+    margin-left: 2em;
+    width: 1230px;
+    height: 140px;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.Opcoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.opcao{
+    background-color: rgba(4, 30, 57, 0.7);
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    top: 9px;
+}
+
+.opcao span{
+    font-size: 30px;
+    line-height: 41px;
+    margin-left: 45px;
+    color: #FFFFFF;
+}
+
+.nomes-opcoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.barraaa{
+    margin-top: 90px;
+    margin-left: 6px;
+    margin-bottom: 20px;
+}
+
+.f1-Conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10px;
+    height: 150px;
+}
+
+.f2-Conteudo{
+    display: flex;
+    background-color: rgba(4, 30, 57, 0.7);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    width: 253px;
+    height: 130px;
+}
+
+.f2-Conteudo span{
+    height: 100;
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-size: 16px;
+
+}
+
+.f2-Conteudo img{
+    margin: 0.6em;
+}
+
+.barraaa-2{
+    margin-top: -10px;
+    margin-left: 6px;
+    margin-bottom: 90px;
+}
+
+.rodape{
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+    width: 98.75vw;
+    justify-content: center;
+}
+
+.coluna1{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px ;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    align-items: center;
+    margin: 15px 30px 0px 00px;
+    width: 160px;
+    text-align: center;
+}
+
+.coluna2{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px ;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    align-items: center;
+    margin: 25px 30px 0px 30px;
+    width: 160px;
+}
+
+.coluna3{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    font-size: 16px ;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    align-items: center;
+    margin: 25px 30px 0px 30px;
+    width: 200px;
+}
+
+.coluna4{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px ;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    align-items: center;
+    margin: 25px 30px 0px 30px;
+    width: 210px;
+}
+
+.coluna5{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px ;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    align-items: center;
+    margin: 25px 30px 0px 30px;
+    width: 200px;
+}
+
+.c4-cima{
+    cursor: pointer;
+}
+
+.c4-baixo{
+    cursor: pointer;
+}
+
+.c4-baixo2{
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.c1-cima{
+    margin-bottom: 10px;
+}
+
+.c2-cima{
+    margin-bottom: 10px;
+}
+
+.c3-cima{
+    margin-bottom: 10px;
+}
+
+.c4-cima{
+    margin-bottom: 10px;
+}
+
+.c5-cima{
+    margin-bottom: 10px;
+}
+
+.c1-baixo{
+    display: flex;
+    flex-direction: row;
+}
+
+.insta-logo{
+    margin: 0px 20px 0px 0px;
+    cursor: pointer;
+}
+
+.face-logo{
+    cursor: pointer;
+}
+
+.twitter-logo{
+    margin: 0px 0px 0px 20px;
+    cursor: pointer;
+}
