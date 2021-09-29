@@ -153,6 +153,10 @@ body{margin: 0px}
     color: #777777;
 }
 
+a{
+    color: #ffff;
+}
+
 .botao-cadastrar{
     font: 22px Rosario;
     color: white;

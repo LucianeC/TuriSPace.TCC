@@ -9,7 +9,7 @@ body{
 
 .Contaneir{
     height: 100;
-    width: auto;
+    width: 100vw;
     background-image: url(../../react/tcc/public/assets/images/saopaulo.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,13 +17,16 @@ body{
 }
 
 .Cabecalho{
-    position: fixed;
+    position: static;
 }
 
 .f1-Cabecalho{
     background-color: #192F45;
-    width: 1366px;
-    height: 110px;
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .Logo{
@@ -34,9 +37,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 199px;
-    margin-top: -140px;
-    width: 1000px;
+    width: 100%;
+    align-items: center;
 }
 
 .Menu-f1{
@@ -53,24 +55,49 @@ a{
 }
 
 .conta{
-    margin-top: -50px;
-    margin-left: 1160px;
+    left: 1px
 }
+
 
 .conta img{
     height: 60px;
 }
-
+.barra-pesquisa{
+    justify-content: center;
+    margin-top: 2em;
+}
 
 .barra-pesquisa input{
+    display: flex;
     background-color:  rgba(0, 0, 0, 0.66);
-    margin-left: 20em;
-    margin-top: 7em;
-    width: 30em;
-    border-radius: 10px;
+    width: 30vw;
+    height: 2em;
+    border-radius: 8px;
     color: #FFFFFF;
     font-size: 20px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+.nm-conta {
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.nm-conta img {
+    width: 70px;
+    height: auto;
+}
+
+.conta {
+    text-align: center;
+    width: 4em;
+    flex-wrap: wrap;
+    margin-right: 1em;
+}
+
 
 .nome{
     background-color:  rgba(0, 0, 0, 0.66);
@@ -80,21 +107,25 @@ a{
     text-align: center;
     width: 8em;
     color: #FFFFFF;
-    margin-left: 13.5em;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
 }
 
 .texto{
+    display: flex;
     background: rgba(4, 30, 57, 0.8);
     text-align: center;
-    margin-left: 2em;
-    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
     height: 140px;
-    font-size: 32px;
+    font-size: 1.4em;
     color: #FFFFFF;
     margin-top: 40px;
     border-radius: 20px;
-    padding-top: 10px;
+    padding: 1em;
+    align-items: center;
 }
 
 .Opcoes{
@@ -109,13 +140,12 @@ a{
     border-radius: 20px;
     width: 200px;
     height: 40px;
-    top: 9px;
+    text-align: center;
 }
 
 .opcao span{
-    font-size: 30px;
+    font-size: 1.5em;
     line-height: 41px;
-    margin-left: 45px;
     color: #FFFFFF;
 }
 
@@ -123,6 +153,16 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+}
+
+.nomes-opcoes img {
+    display: flex;
+    align-items: center;
+    height: 1em;
+    width: auto;
+    color: #FFFFFF;
 }
 
 .barraaa{
