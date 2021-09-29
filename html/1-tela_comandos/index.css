@@ -1,42 +1,45 @@
 body{margin: 0px}
 *{
-    box-sizing: border-box;
-    cursor: default;
 
 }
 
 
 .container-1{
     background-image: url(../../react/tcc/public/assets/images/buildings-1842205_1920\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
     display: column;
     position: absolute;
-    width: 215vh;
-    height: 140vh;
+    width: auto;
+    height: 170%;
    
 }
 
 .titulo-comando{
     text-align: center; 
-    width: 98,5vw;
-    height: 32vh;
+    width: 205vh;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-bottom: 40px;
     background:  rgba(0, 17, 49, 0.856);
     border: 6px solid rgba(15, 109, 210, 0.8);
     box-sizing: border-box;
     border-radius: 6px;
+    height: 32vh;
 
 }
 
 .comandos{
-    padding: 90px 60px ;
     text-align:left; 
     display: flex;
-    
-
 }
 
 button{
-    color: darkblue;
-   margin: 4px;
+    background-color: #ffffff;
+    border: 4px solid rgba(15, 109, 210, 0.8);
+    border-radius: 40px;
+    margin: 4px;
     height: 6vh;
     width: 10vw;
 }
@@ -47,32 +50,57 @@ button{
 }
 
 .titulo-usuario{
-
+    margin-left: 10vh;
     font-size: 30px;
-    color: cornsilk;
+    color: rgb(255, 255, 255);
 }
 
 .parte1-U{
+    display: flex;
+    flex-direction: column;
     padding: 40px;
     font-size: 20px;
-    font-weight: bolder #ffffff ;
-    color: #042127;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.parte1-U :hover{
+    text-decoration: underline;
+}
+
+.parte2-U :hover{
+    text-decoration: underline;
 }
 
 .parte2-U{
+    display: flex;
+    flex-direction: column;
     padding: 40px; 
     font-size: 20px;
     font-weight: bolder #ffffff ;
     color: #042127;
 }
 
+
 .titulo-adm{
+    margin-left: 5vh;
     font-size: 30px;
-    color: cornsilk;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5vh;
 }
 .parte1-A{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vh;
     padding: 0px 200px; 
     font-size: 20px;
     font-weight: bolder #ffffff ;
     color: #042127;
+}
+
+.parte1-A :hover{
+    text-decoration: underline;
 }
