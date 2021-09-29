@@ -7,7 +7,7 @@ body{
 }
 
 
-.Contaneir{
+.Container{
     height: 100;
     width: 100vw;
     background-image: url(../../react/tcc/public/assets/images/saopaulo.png);
