@@ -1,5 +1,7 @@
-body {
-   margin:0px;
+body{margin: 0px}
+*{
+    box-sizing: border-box;
+    cursor: default;
 }
 .vava{
     text-align: right;

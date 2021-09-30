@@ -1,6 +1,7 @@
 body{margin: 0px}
 *{
-
+    box-sizing: border-box;
+    cursor: default;
 }
 
 
@@ -12,13 +13,13 @@ body{margin: 0px}
     display: column;
     position: absolute;
     width: auto;
-    height: 170%;
+    height: 100;
    
 }
 
 .titulo-comando{
     text-align: center; 
-    width: 205vh;
+    width: 216vh;
     box-sizing: border-box;
     border-radius: 6px;
     margin-bottom: 40px;
@@ -26,7 +27,7 @@ body{margin: 0px}
     border: 6px solid rgba(15, 109, 210, 0.8);
     box-sizing: border-box;
     border-radius: 6px;
-    height: 32vh;
+    height: 39vh;
 
 }
 
@@ -86,10 +87,9 @@ a{
 
 
 .titulo-adm{
-    margin-left: 5vh;
+    margin-left: 10vh;
     font-size: 30px;
     color: rgb(255, 255, 255);
-    margin-bottom: 5vh;
 }
 .parte1-A{
     display: flex;
@@ -104,3 +104,5 @@ a{
 .parte1-A :hover{
     text-decoration: underline;
 }
+
+
