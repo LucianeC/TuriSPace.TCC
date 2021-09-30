@@ -13,11 +13,11 @@ body{margin: 0px}
 }
 .dasd-f2{
     background-color: #FFFFFF;
-    margin-top: -68vh;
-    width: 992px;
-    height: 467px;
-    margin-left: 30vh;
-    border-radius: 15px;
+    margin-top: -85vh;
+    width: 178vh;
+    height: 80vh;
+    margin-left: 18vh;
+    border-radius: 13px;
 }
 
 .informacoes{
@@ -35,8 +35,8 @@ body{margin: 0px}
 }
 .dasd-f1{
     background-color: rgba(25, 47, 69, 0.23);
-    width: 1355px;
-    height: 75vh;
+    width: 205vh;
+    height: 90vh;
     border: 6px solid rgba(15, 109, 210, 0.8);
     margin-top: -90vh;
     margin-left: 5vh;

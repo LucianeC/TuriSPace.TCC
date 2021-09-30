@@ -6,9 +6,9 @@ body{margin: 0px}
 
 
 .container-1{
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Ffotos-vetores-gratis%2Ffundo-azul&psig=AOvVaw1cujflZm5IHCQLVT80ydt1&ust=1633068946947000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNiq5oeGpvMCFQAAAAAdAAAAABAD");
+    background-color: rgba(48, 148, 255, 0.8); 
     background-repeat: no-repeat;
-    background-size: cover;
+    
     background-position: center top;
     display: column;
     position: absolute;
@@ -20,15 +20,20 @@ body{margin: 0px}
 .titulo-comando{
     text-align: center; 
     width: 216vh;
+    color: rgb(2, 4, 12); ;
+    font-size: 150px;
     box-sizing: border-box;
     border-radius: 6px;
     margin-bottom: 40px;
-    background:  rgba(0, 17, 49, 0.856);
-    border: 6px solid rgba(15, 109, 210, 0.8);
+    background:  rgba(0, 43, 122, 0.856);
+    border: 4px solid rgba(48, 148, 255, 0.8);
     box-sizing: border-box;
     border-radius: 6px;
     height: 39vh;
+}
 
+b {
+    color: rgba(247, 250, 255, 0.856);;
 }
 
 img{
@@ -42,7 +47,7 @@ img{
 
 button{
     background-color: #ffffff;
-    border: 4px solid rgba(15, 109, 210, 0.8);
+    border: 4px solid rgba(1, 83, 172, 0.8);
     border-radius: 40px;
     margin: 4px;
     height: 6vh;
@@ -57,7 +62,7 @@ button{
 .titulo-usuario{
     margin-left: 10vh;
     font-size: 30px;
-    color: rgb(255, 255, 255);
+    color: rgb(2, 4, 12);
 }
 
 .parte1-U{
@@ -65,6 +70,7 @@ button{
     flex-direction: column;
     padding: 40px;
     font-size: 20px;
+    color: rgb(2, 4, 12);
 }
 
 a{
@@ -86,19 +92,19 @@ a{
     padding: 40px; 
     font-size: 20px;
     font-weight: bolder #ffffff ;
-    color: #042127;
+    color: rgb(2, 4, 12);
 }
 
 
 .titulo-adm{
     margin-left: 10vh;
     font-size: 30px;
-    color: rgb(255, 255, 255);
+    color: rgb(2, 4, 12);
 }
 .parte1-A{
     display: flex;
     flex-direction: column;
-    margin-left: 20vh;
+    margin-left: 25vh;
     padding: 0px 200px; 
     font-size: 20px;
     font-weight: bolder #ffffff ;
