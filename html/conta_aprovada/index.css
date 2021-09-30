@@ -1,0 +1,92 @@
+body {
+   margin:0px;
+}
+.vava{
+    text-align: right;
+    margin-top: 60px;
+}
+
+.okay{
+    text-align: center;
+}
+.dasd-f2{
+    background-color: #FFFFFF;
+    margin-top: -68vh;
+    width: 992px;
+    height: 467px;
+    margin-left: 30vh;
+    border-radius: 15px;
+}
+
+.informacoes{
+   
+   text-align: right;
+
+}
+
+.Compra{
+    font-size: 52px;
+    text-align: center;
+    font-weight:bold;
+    margin-top: 8vh;
+
+}
+.dasd-f1{
+    background-color: rgba(25, 47, 69, 0.23);
+    width: 1355px;
+    height: 75vh;
+    border: 6px solid rgba(15, 109, 210, 0.8);
+    margin-top: -90vh;
+    margin-left: 5vh;
+    border-radius: 15px;
+    }
+
+
+.dasd{
+  background-color: #000509;
+  padding: 50vh;
+    }
+
+.Cabecalho{
+    position: static;
+    
+}
+
+.f1-Cabecalho{
+    background-color: #192F45;
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.Logo{
+
+}
+
+.Menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.menu-f1{
+    color: #FFFFFF;
+}
+
+a{
+    color: #FFFFFF;  
+    text-decoration: none;
+}
+
+.Menu-f1 :hover{
+    text-decoration: underline;
+}
+
+.Menu-f1 br{
+    height: 60px;
+}
