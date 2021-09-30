@@ -6,7 +6,7 @@ body{margin: 0px}
 
 
 .container-1{
-    background-image: url(../../react/tcc/public/assets/images/buildings-1842205_1920\ 1.png);
+    background-image: url(../../react/tcc/public/assets/images/fundo-geometrico.png\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -29,6 +29,10 @@ body{margin: 0px}
     border-radius: 6px;
     height: 39vh;
 
+}
+
+img{
+    text-align: center;
 }
 
 .comandos{
