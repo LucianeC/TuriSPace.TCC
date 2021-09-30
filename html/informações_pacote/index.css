@@ -6,10 +6,6 @@ body{
     cursor: default;
 }
 
-/* .container{
-
-} */
-
 .Cabecalho{
     position: static;
 }
@@ -23,8 +19,8 @@ body{
     justify-content: space-between;
 }
 
-.Logo{
-    width: 7em;
+.Logo{ 
+    width: 7em ;
 }
 
 .Menu{
@@ -49,13 +45,7 @@ a{
 }
 
 .conta{
-    left: 1px;
-    text-align: center;
-    width: 4em;
-    flex-wrap: wrap;
-    margin-right: 1em;
-    display: flex;
-    flex-direction: row;
+    left: 1px
 }
 
 
@@ -64,10 +54,10 @@ a{
 }
 
 .nm-conta {
-    color: #FFFFFF;
-    align-items: center;
     display: flex;
     flex-direction: row;
+    color: #FFFFFF;
+    align-items: center;
 }
 
 .nm-conta img {
@@ -75,16 +65,214 @@ a{
     height: auto;
 }
 
-.f1-container{
-    background-image: url(../../react/tcc/public/assets/images/fundo-geometrico.png\ \(1\).png);
-    width: auto;
-    height: 85vh;
-    position: absolute;
+.conta {
+    text-align: center;
+    width: 4em;
+    flex-wrap: wrap;
+    margin-right: 1em;
 }
 
-.f2-container{
+.container{
+    background-image: url(../../react/tcc/public/assets/images/fundo-geometrico.png.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex: end;
+    flex-direction: row;
+}
+
+.f1-container{
+    position: absolute;
+    width: 95vw;
+    height: 95vh;
+    margin: 15px 35px;
     background-color: rgba(0, 0, 80, 0.25);
-    height: 500px;
-    width: 1300px;
-    margin-top: 50px;
+}
+
+.f2-container-linha{
+    position: absolute;
+    width: 90vw;
+    height: 90vh;
+    background-color: #c4c4c4 0%;
+    border: 3px solid white;
+    margin: 20px 35px;
+}
+.conteudo{
+    display: flex;
+    flex-direction: row;
+}
+
+.conteudo-esquerda{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.img-pacotes{
+    width: 35vw;
+    height: auto;
+}
+
+.inf-pacote{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 5, 9, 0.75);
+    margin: 20px 0px 0px 0px;
+    height: 26vh;
+    border-radius: 10px;
+    border: none;
+}
+
+.infP-cima{
+    text-align: center;
+    margin-top: 10px;
+    font: 800 20px Open Sans;
+    color: white;
+}
+
+.infP-baixo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.infP-baixo-esquerda{
+    font: 700 16px Open Sans;
+    color: white;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.bonequinhos{
+    width: 120px;
+    height: auto;
+    margin-left: -20px;
+}
+
+.infP-baixo-direita{
+    font: 700 16px Open Sans;
+    color: white;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+
+.conteudo-direita{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.titulo-lugar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.linha-titulo{
+    width: 4px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.titulo{
+    font: 400 32px Roboto;
+    color: white;
+    margin-left: 20px;
+}
+
+.subtitulos{
+    font: 400 28px Roboto;
+    color: white;
+    margin-top: 10px;
+}
+
+.texto{
+    font: 300 20px Open Sans;
+    color: white;
+}
+
+.link-informacoes{
+    font: 700 20px Open Sans;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.voltar{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #000509BF;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+    height: 70px;
+    width: 90px;
+    justify-content: center;
+    align-items: flex-end;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-bottom: 50px;
+}
+
+.img-botao1{
+    height: auto;
+    width: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.texto-botao{
+    margin-right: 10px;
+    font: 300 14px Roboto;
+    color: white;
+    cursor: pointer;
+}
+
+.link-voltar{
+    text-decoration: none;
+}
+
+.voltar :hover{
+    text-decoration: underline white;
+    transition: 1.5s;
+}
+
+.compra{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #000509BF;
+    border-radius: 15px 0px 0px 15px;
+    border: none;
+    height: 70px;
+    width: 90px;
+    justify-content: center;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-left: 93.4vw;
+    margin-bottom: 50px;
+}
+
+.img-botao2{
+    height: auto;
+    width: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.botoes-sobrepostos{
+    display: flex;
+    flex-direction: row;
 }
