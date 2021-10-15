@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const faleConosco =  styled.div`
+const FaleConosco =  styled.div`
 body{margin: 0px}
 *{
     box-sizing: border-box;
@@ -11,7 +11,7 @@ body{margin: 0px}
 .Container
     height: 140vh;
     width: 99,2vw;
-    background-image: url(../../react/tcc/public/assets/images/fundo_fale_conosco.png.png);
+    background-image: url{(assets/images/fundo_fale_conosco.png.png)};
     background-repeat: no-repeat;
     background-position: center top;
     display: column;
@@ -99,4 +99,4 @@ padding: 2px 20px;
 
 }
 `
-export {faleConosco};
+export {FaleConosco};
